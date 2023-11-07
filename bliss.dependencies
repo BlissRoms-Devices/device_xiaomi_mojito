@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/device_xiaomi_mojito",
+    "target_path": "device/xiaomi/mojito",
+    "branch": "bliss-universe"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/kernel_xiaomi_mojito",
+    "target_path": "kernel/xiaomi/mojito",
+    "branch": "inline-rom"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/vendor_xiaomi_mojito",
+    "target_path": "vendor/xiaomi/mojito",
+    "branch": "fourteen"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "mojito"
+  }
+]
