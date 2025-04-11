@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_mojito.mk
-
-COMMON_LUNCH_CHOICES := \
-    bliss_mojito-user \
-    bliss_mojito-userdebug \
-    bliss_mojito-eng
+    $(LOCAL_DIR)/lineage_mojito.mk
