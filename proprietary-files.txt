@@ -668,6 +668,3 @@ vendor/etc/hbtp/loader.cfg
 vendor/lib64/libhbtpclient.so
 vendor/lib64/libhbtpdsp.so
 vendor/lib64/libhbtpfrmwk.so
-
-# WLAN
-vendor/bin/cnss-daemon
