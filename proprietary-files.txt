@@ -413,6 +413,10 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# CDSP
+vendor/lib/libfastrpc_utf_stub.so
+vendor/lib64/libfastrpc_utf_stub.so
+
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
