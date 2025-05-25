@@ -508,7 +508,6 @@ vendor/bin/init.qcom.sensors.sh
 vendor/etc/elliptic_sensor.xml
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
-vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
@@ -519,6 +518,9 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/sensors.elliptic@2.0.so
 vendor/lib64/libssc_default_listener.so
+
+# Sensors - from ruby-user 14 UP1A.231005.007 V816.0.5.0.UMOMIXM release-keys
+vendor/lib64/libnotifyaudiohal.so|8dbb23b6069f81a0420e0d0b59e397c90fbe58e5
 
 # Sensor calibrate
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
