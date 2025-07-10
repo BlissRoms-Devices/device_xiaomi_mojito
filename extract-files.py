@@ -40,6 +40,8 @@ blob_fixups: blob_fixups_user_type = {
          .regex_replace('sensors.touch.detect.so\n',''),
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
          .add_needed('libpiex_shim.so'),
+    'vendor/lib64/camera/components/com.vidhance.node.eis.so': blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
 }
 
 module = ExtractUtilsModule(
