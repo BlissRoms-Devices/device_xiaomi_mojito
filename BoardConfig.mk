@@ -31,7 +31,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/mojito_defconfig vendor/debugfs.config
+TARGET_KERNEL_CONFIG := vendor/mojito_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
