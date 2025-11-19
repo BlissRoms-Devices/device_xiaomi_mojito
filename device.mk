@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+com.fingerprints.extension@1.0.vendor
+
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_mojito)
 
