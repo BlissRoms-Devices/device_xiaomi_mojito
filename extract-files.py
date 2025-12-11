@@ -38,6 +38,13 @@ blob_fixups: blob_fixups_user_type = {
          .add_needed('libpiex_shim.so'),
     'vendor/lib64/camera/components/com.vidhance.node.eis.so': blob_fixup()
         .replace_needed('libui.so', 'libui-v34.so'),
+    (
+        'vendor/lib64/android.hardware.camera.provider@2.4-external.so',
+        'vendor/lib/android.hardware.camera.provider@2.4-external.so',
+        'vendor/lib64/camera.device@3.4-external-impl.so',
+        'vendor/lib64/camera.device@3.5-external-impl.so',
+        'vendor/lib64/camera.device@3.6-external-impl.so',
+    ): blob_fixup().replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 }
 
 module = ExtractUtilsModule(
