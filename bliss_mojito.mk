@@ -16,7 +16,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_STOCK_GAPPS := true
+GAPPS_ARCH := arm64
 BLISS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
